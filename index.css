@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+#img_div{
+    flex: 1 1 0;
+}
+
+#data_div{
+    flex: 2 1 0;
+    background-color: red;
+}
