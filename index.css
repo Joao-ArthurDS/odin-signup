@@ -8,9 +8,24 @@ body{
 
 #img_div{
     flex: 1 1 0;
+    background-color: green;
 }
 
 #data_div{
     flex: 2 1 0;
-    background-color: red;
+}
+
+#form_div{
+    box-shadow: 0 3px 6px;
+    margin: 40px 0 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#crt_acc{
+    background-color: #596D48;
+    border-radius: 4px;
+    width: 10.5rem;
+    height: 2rem;
+    color: white;
 }
