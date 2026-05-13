@@ -20,24 +20,30 @@
         </p>
         <div id="form_div">
             <form action="">
-                <legend>Let's do this!</legend>
-                <label for="first_name">FIRST NAME</label>
-                <input type="text" id="first_name">
-                
-                <label for="last_name">LAST NAME</label>
-                <input type="text" id="last_name">
+                <legend style="font-weight: bold;">Let's do this!</legend>
+                <div id="form_columns">
+                    <div id="column1">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name">
+                        
+                        <label for="email">EMAIL</label>
+                        <input type="text" id="email">
+                        
+                        <label for="password">PASSWORD</label>
+                        <input type="text" id="password">
+                    </div>
 
-                <label for="email">EMAIL</label>
-                <input type="text" id="email">
-                
-                <label for="phone_number">PHONE NUMBER</label>
-                <input type="text" id="phone_number">
-                
-                <label for="password">PASSWORD</label>
-                <input type="text" id="password">
-                
-                <label for="confirm_password">CONFIRM PASSWORD</label>
-                <input type="text" id="confirm_password">
+                    <div id="column2">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name">
+
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="text" id="phone_number">
+                        
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="text" id="confirm_password">
+                    </div>
+                </div>
             </form>
         </div>
         <button id="crt_acc">Create Account</button>
